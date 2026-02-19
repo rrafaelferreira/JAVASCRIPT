@@ -1,5 +1,7 @@
+alert("Eu comecei JavaScript agora!")
+confirm(`Ta gostando?`)
+prompt(`Deixe sua reclamação`)
 
-// alert("Eu comecei JavaScript agora!");
 // console.log("Hello Word!");
 // String e texto 
 // Qualquer coisa que esteja entre aspas vira texto:
