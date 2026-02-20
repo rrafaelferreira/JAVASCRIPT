@@ -43,4 +43,26 @@ Ex: Crie uma variável chamada carName e atribua a ela o valor "Volvo":
 
 
 
-// O nome de cada variavel chamos de INDENTIFICADOR
+// O nome de cada variavel chamos de INDENTIFICADOR | São nomes definidos para as variaveis.
+
+
+
+
+/*
+
+(Um igual)=  ATRIBUIÇÃO|RECEBER. Guarde esse valor aqui
+
+
+(Dois iguais)==  COMPARAÇÃO. Isso é igual a isso, mas ele só compara o valor, não o tipo.  
+    Ex: 5 == "5"
+    Resultado: true
+        Porque ele tranforma a string em número antes de comparar.
+
+
+(Três iguais)===     COMPARAÇÃO ESTRITA. Ele compara; Valor e Tipo
+     Ex: 5 === "5"
+     Resultado: false
+        Um é number 
+        O outro é string
+        Mesmo valor, tipo diferente -> false
+*/
