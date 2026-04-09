@@ -143,11 +143,128 @@
 
 // Crie um programa que solicite ao usuário: Idade da pessoa Se possui carteira de motorista (True ou False) O programa deve verificar se a pessoa pode dirigir. Para isso, a pessoa precisa ter 18 anos ou mais e ter carteira. Exiba na tela: "Pode dirigir" se a pessoa atender aos critérios "Não pode dirigir" caso contrário Dica: use os operadores >= e and.
 
-let idade = parseInt(prompt("Digite sua idade:"));
-let cnh = prompt("Possui carteira ? (S/N):");
+// let idade = parseInt(prompt("Digite sua idade:"));
+// let cnh = prompt("Possui carteira ? (S/N):");
 
-if (idade >= 18 && cnh.toUpperCase() === "S"){
-    console.log("Pode Dirigir");
-}else{
-    console.log("Nao pode Dirigir");
-}
+// if (idade >= 18 && cnh.toUpperCase() === "S"){
+//     console.log("Pode Dirigir");
+// }else{
+//     console.log("Nao pode Dirigir");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Crie um programa que peça ao usuário um número inteiro e determine: Se o número é positivo, negativo ou zero. Se o número é par ou ímpar (apenas se for diferente de zero). O programa deve exibir mensagens como: "Número positivo e par" "Número negativo e ímpar" "Número é zero"
+
+// let n = parseInt(prompt("Digite um numero:"));
+
+// if (n === 0){
+// console.log("Numero é zero");
+// }else{
+//     let tipo = ""
+
+//     // positivo e negativo
+//     if (n > 0){
+//         tipo = "Numero é positivo";
+//     }else{
+//         tipo = "Numero é negativo";
+//     }
+
+//     // par e impar
+//     if (n % 2 === 0){
+//         tipo += " e par";
+//     }else{
+//         tipo += " e impar";
+//     }
+
+//     console.log(tipo);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Você vai criar um programa que solicita ao usuário um número e informa se ele é positivo, negativo ou zero. Para isso: Utilize input() para ler o valor digitado pelo usuário. Converta o texto digitado para número usando float(). Utilize uma estrutura condicional if/elif/else para determinar a situação do número: Se o número for maior que 0, informe que é positivo. Se o número for menor que 0, informe que é negativo. Se o número for igual a 0, informe que o número é zero.
+
+// let n = parseFloat(prompt("Digite um numero:"));
+
+// if (n === 0){
+//     console.log("O numero é zero");
+// }else if(n > 0){
+//     console.log("O numero é positivo");
+// }else{
+//     console.log("O numero é negativo");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Escreva um programa em Python usando um loop while que imprima a palavra "Olá" cinco vezes.
+
+// let p = 1;
+
+// while (p <= 5) {
+//     console.log("olá" + p);
+//     p++;
+// }
