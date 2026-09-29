@@ -1,4 +1,3 @@
-// VARIAVEIS
 
 // Variaveis são espaços delimitados para receber valores. | Variaveis servem para guarda dados. | Containers de dados.
 
@@ -6,8 +5,8 @@
 /*
 
 Maneiras de criar/declarar a Variavel : 
-let         (Use let quando precisar mudar o valor | Valores que mudam (pontuação, tempo, posição))
-cost        (Use const por padrão | Valores fixos)
+let         (Use let quando precisar mudar o valor | Valores que mudam (pontuação, tempo, posição)) Quando o valor pode mudar.
+cost        (Use const por padrão | Valores fixos) Quando o valor não vai ser reatribuído.
 var         (nao recomendado)
 
 

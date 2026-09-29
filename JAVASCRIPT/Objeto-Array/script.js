@@ -1,3 +1,14 @@
+
+// find() Procura o primeiro elemento que atende à condição, para quando encontra o primeiro true.
+// filter() Retorna todos os elementos que atendem à condição. O resultado é sempre um array.
+// map() Transforma cada item e cria um novo array.
+// some() Verifica se pelo menos um elemento atende à condição. Retorna: true ou false
+// every() Verifica se todos os elementos atendem à condição.
+// reduce() Percorre o array acumulando um resultado.
+
+
+
+
 // const carro = {
 //     marca: "Ferrari",
 //     modelo: "La Frrari",
@@ -18,11 +29,6 @@
 
 // console.log(carro.cor);
 // console.log(carro);
-
-
-
-
-
 
 
 
@@ -54,10 +60,7 @@
 
 
 
-
-
-
-
+// Find()
 
 // const carros = [
 //     {
@@ -85,10 +88,7 @@
 
 
 
-
-
-
-
+// Filter()
 
 // const carros = [
 //     { marca: "Ferrari", modelo: "F40", ano: 2000 },
@@ -105,9 +105,7 @@
 
 
 
-
-
-
+// Map()
 
 // const carros = [
 //     { marca: "Ferrari", modelo: "F40", ano: 2000 },
@@ -120,11 +118,6 @@
 // });
 
 // console.log(marcas);
-
-
-
-
-
 
 
 
@@ -142,9 +135,7 @@
 
 
 
-
-
-
+// Filter() e Map()
 
 // const carros = [
 //     { marca: "Ferrari", modelo: "F40", ano: 2000 },
@@ -164,9 +155,7 @@
 
 
 
-
-
-
+// Some()
 
 // const carros = [
 //     { marca: "Ferrari", modelo: "F40", ano: 2000 },
@@ -182,8 +171,7 @@
 
 
 
-
-
+// Every()
 
 // const carros = [
 //     { marca: "Ferrari", modelo: "F40", ano: 2000 },
@@ -199,12 +187,151 @@
 
 
 
-
+// Reduce()
 
 // const numeros = [5, 10, 15, 20];
-
 // const soma = numeros.reduce((total, numero) => {
 //     return total + numero;
 // }, 0);
 
 // console.log(soma);
+
+
+
+
+////////////////////////////////////////////DESESTRUTURACAO DE OBJETO//////////////////////////////////////////// 
+
+// const computador = {
+//     processador: "Ryzen 7",
+//     memoria: "32GB",
+//     placaVideo: "RTX 5070",
+//     armazenamento: "1TB"
+// };
+
+// const {processador, placaVideo} = computador
+
+// console.log(processador)
+// console.log(placaVideo)
+
+
+
+
+
+////////////////////////////////////////////DESESTRUTURACAO DE ARRAY////////////////////////////////////////////
+
+
+// - em objetos, a desestruturação usa o nome da propriedade
+// - em arrays, a desestruturação usa a posição
+
+
+// const frutas = ["Maçã", "Banana", "Uva", "Manga"];
+
+// const [primeiraFruta, segundaFruta] = frutas
+
+// console.log(primeiraFruta)
+// console.log(segundaFruta)
+
+
+
+
+
+
+////////////////////////////////////////////SPREAD////////////////////////////////////////////
+
+// Ele serve para “espalhar” os valores de um array ou objeto.
+
+
+
+// const linguagens = ["JavaScript", "Python", "Java"];
+// const novasLinguagens = [...linguagens, "C#", "PHP"];
+
+// console.log(novasLinguagens)
+
+
+
+
+
+
+// const carro = {
+//     marca: "Ferrari",
+//     modelo: "F40",
+//     cor: "Vermelho"
+// };
+// console.log(carro)
+// const carroAtualizado = {
+//     ...carro,
+//     cor: "Preto"
+// };
+
+// console.log(carroAtualizado)
+
+
+
+////////////////////////////////////////////Rest Operator////////////////////////////////////////////
+
+// Em vez de espalhar valores, ele junta os valores restantes.
+
+
+
+// const linguagens = ["JavaScript", "Python", "Java", "C#", "PHP"];
+// const [primeiro, ...outras] = linguagens
+
+// console.log(primeiro);
+// console.log(outras);
+
+
+
+
+
+
+
+// function mostrarNomes(...nomes){
+//     console.log(nomes);
+// }
+
+// mostrarNomes("Joao", "Rafael", "Caio", "Lis");
+
+
+
+
+
+
+
+// function mostrarNomes(...nomes){
+//     nomes.forEach((nome) => {
+//         console.log(`Nome: ${nome}`);
+//     });
+// }
+//  mostrarNomes("Joao", "Rafael", "Caio", "Lis");
+
+
+
+
+
+
+
+// function calcularMedia(...numeros) {
+
+//     const soma = numeros.reduce((total, numero) => {
+//         return total + numero;
+//     }, 0);
+
+//     return soma / numeros.length;
+// }
+
+// console.log(calcularMedia(10, 8, 6));
+
+
+
+
+
+
+
+
+// function calcularDesconto(preco, desconto = 10) {
+//     const valorDesconto = preco * desconto / 100;
+
+//     return preco - valorDesconto;
+// }
+
+// console.log(calcularDesconto(100,20));
