@@ -1,4 +1,4 @@
-.ativo {
+/* .ativo {
     color: green;
     font-weight: bold;
 }
@@ -26,4 +26,25 @@ bosfy.escuro{
 
 .erro {
     border: 2px solid red;
+} */
+
+
+
+.card-produto {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.titulo-produto {
+    font-size: 1.4rem;
+}
+
+.preco-produto {
+    font-weight: bold;
+}
+
+.adicionado {
+    background-color: green;
+    color: white;
 }
